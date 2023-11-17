@@ -7,53 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4553BA002B078E0D00C6E537 /* Files in Resources */ = {isa = PBXBuildFile; fileRef = 4553B9FF2B078E0D00C6E537 /* Files */; };
 		45608FBD2B078A4F00F21651 /* OM2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45608FBC2B078A4F00F21651 /* OM2App.swift */; };
 		45608FBF2B078A4F00F21651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45608FBE2B078A4F00F21651 /* ContentView.swift */; };
 		45608FC12B078A5000F21651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45608FC02B078A5000F21651 /* Assets.xcassets */; };
 		45608FC42B078A5000F21651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45608FC32B078A5000F21651 /* Preview Assets.xcassets */; };
 		45608FC62B078A5000F21651 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45608FC52B078A5000F21651 /* Persistence.swift */; };
 		45608FC92B078A5000F21651 /* OM2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45608FC72B078A5000F21651 /* OM2.xcdatamodeld */; };
-		45E1866F2B0796A600F4C31F /* Files in Sources */ = {isa = PBXBuildFile; fileRef = 4553B9FF2B078E0D00C6E537 /* Files */; };
-		45E1869D2B0797A900F4C31F /* BillingPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1868E2B0797A900F4C31F /* BillingPlaceHolderView.swift */; };
-		45E1869E2B0797A900F4C31F /* CustomersPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1868F2B0797A900F4C31F /* CustomersPlaceHolderView.swift */; };
-		45E1869F2B0797A900F4C31F /* IngredientsPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186902B0797A900F4C31F /* IngredientsPlaceHolderView.swift */; };
-		45E186A02B0797A900F4C31F /* OrdersPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186912B0797A900F4C31F /* OrdersPlaceholderView.swift */; };
-		45E186A12B0797A900F4C31F /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186922B0797A900F4C31F /* OrderListView.swift */; };
-		45E186A22B0797A900F4C31F /* RecipesPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186932B0797A900F4C31F /* RecipesPlaceholderView.swift */; };
-		45E186A32B0797A900F4C31F /* AddPersonToOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186942B0797A900F4C31F /* AddPersonToOrder.swift */; };
-		45E186A42B0797A900F4C31F /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186952B0797A900F4C31F /* PersonDetailView.swift */; };
-		45E186A52B0797A900F4C31F /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186962B0797A900F4C31F /* PersonRowView.swift */; };
-		45E186A62B0797A900F4C31F /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186972B0797A900F4C31F /* AddPersonView.swift */; };
-		45E186A72B0797A900F4C31F /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186982B0797A900F4C31F /* PersonListView.swift */; };
-		45E186A82B0797A900F4C31F /* Main Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186992B0797A900F4C31F /* Main Menu.swift */; };
-		45E186A92B0797A900F4C31F /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1869A2B0797A900F4C31F /* OrderRowView.swift */; };
-		45E186AA2B0797A900F4C31F /* ProductsPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1869B2B0797A900F4C31F /* ProductsPlaceHolderView.swift */; };
-		45E186AB2B0797A900F4C31F /* SuppliersPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1869C2B0797A900F4C31F /* SuppliersPlaceHolderView.swift */; };
-		45E186C02B07989D00F4C31F /* LaborCost+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186AC2B07989D00F4C31F /* LaborCost+CoreDataClass.swift */; };
-		45E186C12B07989D00F4C31F /* LaborCost+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186AD2B07989D00F4C31F /* LaborCost+CoreDataProperties.swift */; };
-		45E186C22B07989D00F4C31F /* Componets+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186AE2B07989D00F4C31F /* Componets+CoreDataClass.swift */; };
-		45E186C32B07989D00F4C31F /* Componets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186AF2B07989D00F4C31F /* Componets+CoreDataProperties.swift */; };
-		45E186C42B07989D00F4C31F /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B02B07989D00F4C31F /* Person+CoreDataClass.swift */; };
-		45E186C52B07989D00F4C31F /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B12B07989D00F4C31F /* Person+CoreDataProperties.swift */; };
-		45E186C62B07989D00F4C31F /* OrderedItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B22B07989D00F4C31F /* OrderedItem+CoreDataClass.swift */; };
-		45E186C72B07989D00F4C31F /* OrderedItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B32B07989D00F4C31F /* OrderedItem+CoreDataProperties.swift */; };
-		45E186C82B07989D00F4C31F /* Ingredient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B42B07989D00F4C31F /* Ingredient+CoreDataClass.swift */; };
-		45E186C92B07989D00F4C31F /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B52B07989D00F4C31F /* Ingredient+CoreDataProperties.swift */; };
-		45E186CA2B07989D00F4C31F /* Products+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B62B07989D00F4C31F /* Products+CoreDataClass.swift */; };
-		45E186CB2B07989D00F4C31F /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B72B07989D00F4C31F /* Products+CoreDataProperties.swift */; };
-		45E186CC2B07989D00F4C31F /* FoodProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B82B07989D00F4C31F /* FoodProduct+CoreDataClass.swift */; };
-		45E186CD2B07989D00F4C31F /* FoodProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186B92B07989D00F4C31F /* FoodProduct+CoreDataProperties.swift */; };
-		45E186CE2B07989D00F4C31F /* Orders+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186BA2B07989D00F4C31F /* Orders+CoreDataClass.swift */; };
-		45E186CF2B07989D00F4C31F /* Orders+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186BB2B07989D00F4C31F /* Orders+CoreDataProperties.swift */; };
-		45E186D02B07989D00F4C31F /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186BC2B07989D00F4C31F /* Employee+CoreDataClass.swift */; };
-		45E186D12B07989D00F4C31F /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186BD2B07989D00F4C31F /* Employee+CoreDataProperties.swift */; };
-		45E186D22B07989D00F4C31F /* AssembledProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186BE2B07989D00F4C31F /* AssembledProduct+CoreDataClass.swift */; };
-		45E186D32B07989D00F4C31F /* AssembledProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E186BF2B07989D00F4C31F /* AssembledProduct+CoreDataProperties.swift */; };
+		45AD27492B07A5AA003D940E /* Orders in Resources */ = {isa = PBXBuildFile; fileRef = 45AD27482B07A5AA003D940E /* Orders */; };
+		45AD274A2B07A5AC003D940E /* Orders in Sources */ = {isa = PBXBuildFile; fileRef = 45AD27482B07A5AA003D940E /* Orders */; };
+		45AD274C2B07A5B8003D940E /* Person in Resources */ = {isa = PBXBuildFile; fileRef = 45AD274B2B07A5B8003D940E /* Person */; };
+		45AD274D2B07A5BC003D940E /* Person in Sources */ = {isa = PBXBuildFile; fileRef = 45AD274B2B07A5B8003D940E /* Person */; };
+		45AD274F2B07A5CD003D940E /* Main Menu in Resources */ = {isa = PBXBuildFile; fileRef = 45AD274E2B07A5CD003D940E /* Main Menu */; };
+		45AD27502B07A5D0003D940E /* Main Menu in Sources */ = {isa = PBXBuildFile; fileRef = 45AD274E2B07A5CD003D940E /* Main Menu */; };
+		45E301642B07A41F005A51A5 /* NSManaged in Resources */ = {isa = PBXBuildFile; fileRef = 45E301632B07A41F005A51A5 /* NSManaged */; };
+		45E3017A2B07A567005A51A5 /* NSManaged in Sources */ = {isa = PBXBuildFile; fileRef = 45E301632B07A41F005A51A5 /* NSManaged */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4553B9FF2B078E0D00C6E537 /* Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Files; sourceTree = "<group>"; };
 		45608FB92B078A4F00F21651 /* OM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45608FBC2B078A4F00F21651 /* OM2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OM2App.swift; sourceTree = "<group>"; };
 		45608FBE2B078A4F00F21651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,41 +33,10 @@
 		45608FC82B078A5000F21651 /* OM2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OM2.xcdatamodel; sourceTree = "<group>"; };
 		45608FCA2B078A5000F21651 /* OM2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OM2.entitlements; sourceTree = "<group>"; };
 		45608FCB2B078A5000F21651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45E1868E2B0797A900F4C31F /* BillingPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillingPlaceHolderView.swift; sourceTree = "<group>"; };
-		45E1868F2B0797A900F4C31F /* CustomersPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomersPlaceHolderView.swift; sourceTree = "<group>"; };
-		45E186902B0797A900F4C31F /* IngredientsPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsPlaceHolderView.swift; sourceTree = "<group>"; };
-		45E186912B0797A900F4C31F /* OrdersPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersPlaceholderView.swift; sourceTree = "<group>"; };
-		45E186922B0797A900F4C31F /* OrderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
-		45E186932B0797A900F4C31F /* RecipesPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesPlaceholderView.swift; sourceTree = "<group>"; };
-		45E186942B0797A900F4C31F /* AddPersonToOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonToOrder.swift; sourceTree = "<group>"; };
-		45E186952B0797A900F4C31F /* PersonDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
-		45E186962B0797A900F4C31F /* PersonRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
-		45E186972B0797A900F4C31F /* AddPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
-		45E186982B0797A900F4C31F /* PersonListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonListView.swift; path = OM2/Files/PersonListView.swift; sourceTree = "<group>"; };
-		45E186992B0797A900F4C31F /* Main Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Main Menu.swift"; sourceTree = "<group>"; };
-		45E1869A2B0797A900F4C31F /* OrderRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
-		45E1869B2B0797A900F4C31F /* ProductsPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPlaceHolderView.swift; sourceTree = "<group>"; };
-		45E1869C2B0797A900F4C31F /* SuppliersPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuppliersPlaceHolderView.swift; sourceTree = "<group>"; };
-		45E186AC2B07989D00F4C31F /* LaborCost+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LaborCost+CoreDataClass.swift"; path = "NSManaged/LaborCost+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186AD2B07989D00F4C31F /* LaborCost+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LaborCost+CoreDataProperties.swift"; path = "NSManaged/LaborCost+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186AE2B07989D00F4C31F /* Componets+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Componets+CoreDataClass.swift"; path = "NSManaged/Componets+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186AF2B07989D00F4C31F /* Componets+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Componets+CoreDataProperties.swift"; path = "NSManaged/Componets+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186B02B07989D00F4C31F /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataClass.swift"; path = "NSManaged/Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186B12B07989D00F4C31F /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "NSManaged/Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186B22B07989D00F4C31F /* OrderedItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OrderedItem+CoreDataClass.swift"; path = "NSManaged/OrderedItem+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186B32B07989D00F4C31F /* OrderedItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OrderedItem+CoreDataProperties.swift"; path = "NSManaged/OrderedItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186B42B07989D00F4C31F /* Ingredient+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataClass.swift"; path = "NSManaged/Ingredient+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186B52B07989D00F4C31F /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ingredient+CoreDataProperties.swift"; path = "NSManaged/Ingredient+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186B62B07989D00F4C31F /* Products+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Products+CoreDataClass.swift"; path = "NSManaged/Products+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186B72B07989D00F4C31F /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Products+CoreDataProperties.swift"; path = "NSManaged/Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186B82B07989D00F4C31F /* FoodProduct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FoodProduct+CoreDataClass.swift"; path = "NSManaged/FoodProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186B92B07989D00F4C31F /* FoodProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FoodProduct+CoreDataProperties.swift"; path = "NSManaged/FoodProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186BA2B07989D00F4C31F /* Orders+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Orders+CoreDataClass.swift"; path = "NSManaged/Orders+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186BB2B07989D00F4C31F /* Orders+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Orders+CoreDataProperties.swift"; path = "NSManaged/Orders+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186BC2B07989D00F4C31F /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Employee+CoreDataClass.swift"; path = "NSManaged/Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186BD2B07989D00F4C31F /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Employee+CoreDataProperties.swift"; path = "NSManaged/Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		45E186BE2B07989D00F4C31F /* AssembledProduct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AssembledProduct+CoreDataClass.swift"; path = "NSManaged/AssembledProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
-		45E186BF2B07989D00F4C31F /* AssembledProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AssembledProduct+CoreDataProperties.swift"; path = "NSManaged/AssembledProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45AD27482B07A5AA003D940E /* Orders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Orders; sourceTree = "<group>"; };
+		45AD274B2B07A5B8003D940E /* Person */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Person; sourceTree = "<group>"; };
+		45AD274E2B07A5CD003D940E /* Main Menu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main Menu"; sourceTree = "<group>"; };
+		45E301632B07A41F005A51A5 /* NSManaged */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NSManaged; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,42 +53,18 @@
 		45608FB02B078A4F00F21651 = {
 			isa = PBXGroup;
 			children = (
-				45E186AC2B07989D00F4C31F /* LaborCost+CoreDataClass.swift */,
-				45E186AD2B07989D00F4C31F /* LaborCost+CoreDataProperties.swift */,
-				45E186AE2B07989D00F4C31F /* Componets+CoreDataClass.swift */,
-				45E186AF2B07989D00F4C31F /* Componets+CoreDataProperties.swift */,
-				45E186B02B07989D00F4C31F /* Person+CoreDataClass.swift */,
-				45E186B12B07989D00F4C31F /* Person+CoreDataProperties.swift */,
-				45E186B22B07989D00F4C31F /* OrderedItem+CoreDataClass.swift */,
-				45E186B32B07989D00F4C31F /* OrderedItem+CoreDataProperties.swift */,
-				45E186B42B07989D00F4C31F /* Ingredient+CoreDataClass.swift */,
-				45E186B52B07989D00F4C31F /* Ingredient+CoreDataProperties.swift */,
-				45E186B62B07989D00F4C31F /* Products+CoreDataClass.swift */,
-				45E186B72B07989D00F4C31F /* Products+CoreDataProperties.swift */,
-				45E186B82B07989D00F4C31F /* FoodProduct+CoreDataClass.swift */,
-				45E186B92B07989D00F4C31F /* FoodProduct+CoreDataProperties.swift */,
-				45E186BA2B07989D00F4C31F /* Orders+CoreDataClass.swift */,
-				45E186BB2B07989D00F4C31F /* Orders+CoreDataProperties.swift */,
-				45E186BC2B07989D00F4C31F /* Employee+CoreDataClass.swift */,
-				45E186BD2B07989D00F4C31F /* Employee+CoreDataProperties.swift */,
-				45E186BE2B07989D00F4C31F /* AssembledProduct+CoreDataClass.swift */,
-				45E186BF2B07989D00F4C31F /* AssembledProduct+CoreDataProperties.swift */,
-				45E186942B0797A900F4C31F /* AddPersonToOrder.swift */,
-				45E186972B0797A900F4C31F /* AddPersonView.swift */,
-				45E1868E2B0797A900F4C31F /* BillingPlaceHolderView.swift */,
-				45E1868F2B0797A900F4C31F /* CustomersPlaceHolderView.swift */,
-				45E186902B0797A900F4C31F /* IngredientsPlaceHolderView.swift */,
-				45E186992B0797A900F4C31F /* Main Menu.swift */,
-				45E186922B0797A900F4C31F /* OrderListView.swift */,
-				45E1869A2B0797A900F4C31F /* OrderRowView.swift */,
-				45E186912B0797A900F4C31F /* OrdersPlaceholderView.swift */,
-				45E186952B0797A900F4C31F /* PersonDetailView.swift */,
-				45E186982B0797A900F4C31F /* PersonListView.swift */,
-				45E186962B0797A900F4C31F /* PersonRowView.swift */,
-				45E1869B2B0797A900F4C31F /* ProductsPlaceHolderView.swift */,
-				45E186932B0797A900F4C31F /* RecipesPlaceholderView.swift */,
-				45E1869C2B0797A900F4C31F /* SuppliersPlaceHolderView.swift */,
-				45608FBB2B078A4F00F21651 /* OM2 */,
+				45AD274E2B07A5CD003D940E /* Main Menu */,
+				45AD274B2B07A5B8003D940E /* Person */,
+				45AD27482B07A5AA003D940E /* Orders */,
+				45E301632B07A41F005A51A5 /* NSManaged */,
+				45608FBC2B078A4F00F21651 /* OM2App.swift */,
+				45608FBE2B078A4F00F21651 /* ContentView.swift */,
+				45608FC02B078A5000F21651 /* Assets.xcassets */,
+				45608FC52B078A5000F21651 /* Persistence.swift */,
+				45608FCA2B078A5000F21651 /* OM2.entitlements */,
+				45608FCB2B078A5000F21651 /* Info.plist */,
+				45608FC72B078A5000F21651 /* OM2.xcdatamodeld */,
+				45608FC22B078A5000F21651 /* Preview Content */,
 				45608FBA2B078A4F00F21651 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,22 +75,6 @@
 				45608FB92B078A4F00F21651 /* OM2.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		45608FBB2B078A4F00F21651 /* OM2 */ = {
-			isa = PBXGroup;
-			children = (
-				4553B9FF2B078E0D00C6E537 /* Files */,
-				45608FBC2B078A4F00F21651 /* OM2App.swift */,
-				45608FBE2B078A4F00F21651 /* ContentView.swift */,
-				45608FC02B078A5000F21651 /* Assets.xcassets */,
-				45608FC52B078A5000F21651 /* Persistence.swift */,
-				45608FCA2B078A5000F21651 /* OM2.entitlements */,
-				45608FCB2B078A5000F21651 /* Info.plist */,
-				45608FC72B078A5000F21651 /* OM2.xcdatamodeld */,
-				45608FC22B078A5000F21651 /* Preview Content */,
-			);
-			path = OM2;
 			sourceTree = "<group>";
 		};
 		45608FC22B078A5000F21651 /* Preview Content */ = {
@@ -244,9 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4553BA002B078E0D00C6E537 /* Files in Resources */,
+				45AD27492B07A5AA003D940E /* Orders in Resources */,
+				45AD274F2B07A5CD003D940E /* Main Menu in Resources */,
 				45608FC42B078A5000F21651 /* Preview Assets.xcassets in Resources */,
+				45AD274C2B07A5B8003D940E /* Person in Resources */,
 				45608FC12B078A5000F21651 /* Assets.xcassets in Resources */,
+				45E301642B07A41F005A51A5 /* NSManaged in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,45 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E186C62B07989D00F4C31F /* OrderedItem+CoreDataClass.swift in Sources */,
-				45E186CB2B07989D00F4C31F /* Products+CoreDataProperties.swift in Sources */,
-				45E186A92B0797A900F4C31F /* OrderRowView.swift in Sources */,
-				45E1869D2B0797A900F4C31F /* BillingPlaceHolderView.swift in Sources */,
-				45E186A42B0797A900F4C31F /* PersonDetailView.swift in Sources */,
-				45E186C82B07989D00F4C31F /* Ingredient+CoreDataClass.swift in Sources */,
-				45E186A62B0797A900F4C31F /* AddPersonView.swift in Sources */,
-				45E1866F2B0796A600F4C31F /* Files in Sources */,
-				45E186D32B07989D00F4C31F /* AssembledProduct+CoreDataProperties.swift in Sources */,
-				45E1869F2B0797A900F4C31F /* IngredientsPlaceHolderView.swift in Sources */,
-				45E186AB2B0797A900F4C31F /* SuppliersPlaceHolderView.swift in Sources */,
+				45AD27502B07A5D0003D940E /* Main Menu in Sources */,
+				45AD274A2B07A5AC003D940E /* Orders in Sources */,
+				45AD274D2B07A5BC003D940E /* Person in Sources */,
+				45E3017A2B07A567005A51A5 /* NSManaged in Sources */,
 				45608FC62B078A5000F21651 /* Persistence.swift in Sources */,
-				45E186C32B07989D00F4C31F /* Componets+CoreDataProperties.swift in Sources */,
-				45E186C22B07989D00F4C31F /* Componets+CoreDataClass.swift in Sources */,
-				45E186C52B07989D00F4C31F /* Person+CoreDataProperties.swift in Sources */,
-				45E186C02B07989D00F4C31F /* LaborCost+CoreDataClass.swift in Sources */,
-				45E186AA2B0797A900F4C31F /* ProductsPlaceHolderView.swift in Sources */,
-				45E186C72B07989D00F4C31F /* OrderedItem+CoreDataProperties.swift in Sources */,
-				45E186CD2B07989D00F4C31F /* FoodProduct+CoreDataProperties.swift in Sources */,
-				45E186CC2B07989D00F4C31F /* FoodProduct+CoreDataClass.swift in Sources */,
-				45E186D12B07989D00F4C31F /* Employee+CoreDataProperties.swift in Sources */,
-				45E186D22B07989D00F4C31F /* AssembledProduct+CoreDataClass.swift in Sources */,
-				45E186A32B0797A900F4C31F /* AddPersonToOrder.swift in Sources */,
-				45E186CF2B07989D00F4C31F /* Orders+CoreDataProperties.swift in Sources */,
-				45E186C12B07989D00F4C31F /* LaborCost+CoreDataProperties.swift in Sources */,
-				45E1869E2B0797A900F4C31F /* CustomersPlaceHolderView.swift in Sources */,
-				45E186D02B07989D00F4C31F /* Employee+CoreDataClass.swift in Sources */,
-				45E186A12B0797A900F4C31F /* OrderListView.swift in Sources */,
-				45E186A82B0797A900F4C31F /* Main Menu.swift in Sources */,
-				45E186C42B07989D00F4C31F /* Person+CoreDataClass.swift in Sources */,
 				45608FBF2B078A4F00F21651 /* ContentView.swift in Sources */,
 				45608FC92B078A5000F21651 /* OM2.xcdatamodeld in Sources */,
-				45E186C92B07989D00F4C31F /* Ingredient+CoreDataProperties.swift in Sources */,
-				45E186A22B0797A900F4C31F /* RecipesPlaceholderView.swift in Sources */,
-				45E186A02B0797A900F4C31F /* OrdersPlaceholderView.swift in Sources */,
-				45E186A72B0797A900F4C31F /* PersonListView.swift in Sources */,
-				45E186CE2B07989D00F4C31F /* Orders+CoreDataClass.swift in Sources */,
-				45E186CA2B07989D00F4C31F /* Products+CoreDataClass.swift in Sources */,
-				45E186A52B0797A900F4C31F /* PersonRowView.swift in Sources */,
 				45608FBD2B078A4F00F21651 /* OM2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +300,7 @@
 				CODE_SIGN_ENTITLEMENTS = OM2/OM2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OM2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 7GUHGRV3XH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -461,7 +331,7 @@
 				CODE_SIGN_ENTITLEMENTS = OM2/OM2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OM2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 7GUHGRV3XH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
