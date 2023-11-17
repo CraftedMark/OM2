@@ -8,6 +8,8 @@
 
 // Person+CoreDataClass.swift
 
+// Person+CoreDataClass.swift
+
 import Foundation
 import CoreData
 
@@ -16,8 +18,8 @@ public class Person: NSManagedObject {
     // Custom logic or computed properties go here
 
     public var fullName: String {
-        let first = fName ?? ""
-        let last = lName ?? ""
+        let first = firstName ?? ""
+        let last = lastName ?? ""
         return first.isEmpty && last.isEmpty ? "Unknown Name" : "\(first) \(last)".trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }

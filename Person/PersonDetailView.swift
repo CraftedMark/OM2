@@ -32,8 +32,8 @@ struct PersonDetailView_Previews: PreviewProvider {
         let context = PersistenceController.preview.container.viewContext
         // Create a sample person for the preview
         let samplePerson = Person(context: context)
-        samplePerson.fName = "John"
-        samplePerson.lName = "Doe"
+        samplePerson.firstName = "John"
+        samplePerson.lastName = "Doe"
         return PersonDetailView(person: samplePerson)
             // Provide the context to the preview
             .environment(\.managedObjectContext, context)
