@@ -34,6 +34,12 @@ struct PersistenceController {
         container = NSPersistentCloudKitContainer(name: "OM2")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
+        } else {
+            // Configure the container to sync with iCloud
+            let storeDescription = container.persistentStoreDescriptions.first
+            storeDescription?.cloudKitContainerOptions = NSPersistentCloudKitContainerOptions(containerIdentifier: "co.CraftedSolutions.OM2")
+            storeDescription?.setOption(true as NSNumber, forKey: NSPersistentStoreRemoteChangeNotificationPostOptionKey)
+            storeDescription?.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)
         }
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
@@ -42,5 +48,6 @@ struct PersistenceController {
             }
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
+        container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
     }
 }

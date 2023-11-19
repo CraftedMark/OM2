@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23C5047e" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
-    <entity name="AssembledProduct" representedClassName="AssembledProduct" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="AssembledProduct" representedClassName="AssembledProduct" syncable="YES">
         <attribute name="componetName" optional="YES" attributeType="String"/>
         <attribute name="componeyQty" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="dose" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
@@ -11,14 +11,14 @@
         <relationship name="componets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AssembledProduct" inverseName="ingredient" inverseEntity="AssembledProduct"/>
         <relationship name="ingredient" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AssembledProduct" inverseName="componets" inverseEntity="AssembledProduct"/>
     </entity>
-    <entity name="Componets" representedClassName="Componets" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="Componets" representedClassName="Componets" syncable="YES">
         <attribute name="costOfGoods" optional="YES" attributeType="Decimal" defaultValueString="0"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="productDescription" optional="YES" attributeType="String"/>
     </entity>
-    <entity name="Employee" representedClassName="Employee" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="Employee" representedClassName="Employee" isAbstract="YES" syncable="YES">
         <attribute name="dateHired" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="fName" optional="YES" attributeType="String"/>
         <attribute name="hourlyRate" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
@@ -27,7 +27,7 @@
         <attribute name="notes" optional="YES" attributeType="String"/>
         <relationship name="employee" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LaborCost" inverseName="laborCost" inverseEntity="LaborCost"/>
     </entity>
-    <entity name="FoodProduct" representedClassName="FoodProduct" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="FoodProduct" representedClassName="FoodProduct" isAbstract="YES" syncable="YES">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="ingredients" optional="YES" attributeType="String"/>
         <attribute name="labor" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
@@ -36,7 +36,7 @@
         <attribute name="productDescription" optional="YES" attributeType="String"/>
         <relationship name="ingredient" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FoodProduct" inverseName="ingredient" inverseEntity="FoodProduct"/>
     </entity>
-    <entity name="Ingredient" representedClassName="Ingredient" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES">
         <attribute name="amountPerBatch" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
         <attribute name="costPerUnit" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
         <attribute name="foodProduct" optional="YES" attributeType="String"/>
@@ -45,35 +45,37 @@
         <attribute name="unit" optional="YES" attributeType="String"/>
         <relationship name="foodProducts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="foodProducts" inverseEntity="Ingredient"/>
     </entity>
-    <entity name="LaborCost" representedClassName="LaborCost" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="LaborCost" representedClassName="LaborCost" syncable="YES">
         <attribute name="employee" optional="YES" attributeType="String"/>
         <attribute name="foodProduct" optional="YES" attributeType="String"/>
         <attribute name="hourlyRate" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
         <attribute name="hoursPerBatch" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
         <relationship name="laborCost" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Employee" inverseName="employee" inverseEntity="Employee"/>
     </entity>
-    <entity name="OrderedItem" representedClassName="OrderedItem" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="OrderedItem" representedClassName="OrderedItem" syncable="YES">
         <attribute name="activeIngredient" optional="YES" attributeType="String"/>
         <attribute name="dose" optional="YES" attributeType="String"/>
         <attribute name="flavor" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="notes" optional="YES" attributeType="String"/>
         <attribute name="packaging" optional="YES" attributeType="String"/>
         <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
-        <attribute name="productName" optional="YES" attributeType="String"/>
         <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="ordereditem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Orders" inverseName="orderedItem" inverseEntity="Orders"/>
     </entity>
-    <entity name="Orders" representedClassName="Orders" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="Orders" representedClassName="Orders" syncable="YES">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="orderCompletionDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="orderDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="orderTotal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="paidAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="totalAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <relationship name="customer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Orders" inverseName="customer" inverseEntity="Orders"/>
-        <relationship name="orderedItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Orders" inverseName="orderedItem" inverseEntity="Orders"/>
-        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Orders" inverseName="person" inverseEntity="Orders"/>
+        <relationship name="orderedItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OrderedItem" inverseName="ordereditem" inverseEntity="OrderedItem"/>
     </entity>
-    <entity name="Person" representedClassName="Person" isAbstract="YES" syncable="YES">
+    <entity name="Person" representedClassName="Person" syncable="YES">
         <attribute name="city" optional="YES" attributeType="String"/>
         <attribute name="country" optional="YES" attributeType="String"/>
         <attribute name="email" optional="YES" attributeType="String"/>
@@ -85,11 +87,11 @@
         <attribute name="street" optional="YES" attributeType="String"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="zipCode" optional="YES" attributeType="String"/>
-        <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="customer" inverseEntity="Person"/>
+        <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="orders" inverseEntity="Person"/>
         <relationship name="expenses" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="expenses" inverseEntity="Person"/>
-        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="orders" inverseEntity="Person" spotlightIndexingEnabled="YES"/>
+        <relationship name="orders" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="customer" inverseEntity="Person" spotlightIndexingEnabled="YES"/>
     </entity>
-    <entity name="Products" representedClassName="Products" isAbstract="YES" syncable="YES" codeGenerationType="class">
+    <entity name="Products" representedClassName="Products" syncable="YES">
         <attribute name="costOfGoods" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
         <attribute name="dose" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="flavor" optional="YES" attributeType="String"/>
@@ -97,10 +99,11 @@
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="packaging" optional="YES" attributeType="String"/>
         <attribute name="productDescription" optional="YES" attributeType="String"/>
+        <attribute name="productionItem" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="qty" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="salePrice" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
         <attribute name="size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="unit" optional="YES" attributeType="String"/>
-        <relationship name="orderedItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Products" inverseName="orderedItem" inverseEntity="Products"/>
+        <relationship name="orderedItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Products" inverseName="orderedItems" inverseEntity="Products"/>
     </entity>
 </model>

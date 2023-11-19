@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4549DDC82B096742008E4593 /* CloudKitObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549DDC72B096742008E4593 /* CloudKitObserver.swift */; };
+		4549DDCA2B09E8F4008E4593 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549DDC92B09E8F4008E4593 /* OrderDetailView.swift */; };
+		4549DDCC2B0A7690008E4593 /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549DDCB2B0A7690008E4593 /* AddOrderView.swift */; };
+		4549DDCF2B0A83FB008E4593 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549DDCE2B0A83FB008E4593 /* ProductListView.swift */; };
+		4549DDD22B0A8445008E4593 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549DDD12B0A8445008E4593 /* AddProductView.swift */; };
 		45608FBD2B078A4F00F21651 /* OM2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45608FBC2B078A4F00F21651 /* OM2App.swift */; };
 		45608FBF2B078A4F00F21651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45608FBE2B078A4F00F21651 /* ContentView.swift */; };
 		45608FC12B078A5000F21651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45608FC02B078A5000F21651 /* Assets.xcassets */; };
 		45608FC42B078A5000F21651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45608FC32B078A5000F21651 /* Preview Assets.xcassets */; };
 		45608FC62B078A5000F21651 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45608FC52B078A5000F21651 /* Persistence.swift */; };
 		45608FC92B078A5000F21651 /* OM2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45608FC72B078A5000F21651 /* OM2.xcdatamodeld */; };
-		45AD27492B07A5AA003D940E /* Orders in Resources */ = {isa = PBXBuildFile; fileRef = 45AD27482B07A5AA003D940E /* Orders */; };
-		45AD274A2B07A5AC003D940E /* Orders in Sources */ = {isa = PBXBuildFile; fileRef = 45AD27482B07A5AA003D940E /* Orders */; };
-		45AD274C2B07A5B8003D940E /* Person in Resources */ = {isa = PBXBuildFile; fileRef = 45AD274B2B07A5B8003D940E /* Person */; };
-		45AD274D2B07A5BC003D940E /* Person in Sources */ = {isa = PBXBuildFile; fileRef = 45AD274B2B07A5B8003D940E /* Person */; };
-		45AD274F2B07A5CD003D940E /* Main Menu in Resources */ = {isa = PBXBuildFile; fileRef = 45AD274E2B07A5CD003D940E /* Main Menu */; };
-		45AD27502B07A5D0003D940E /* Main Menu in Sources */ = {isa = PBXBuildFile; fileRef = 45AD274E2B07A5CD003D940E /* Main Menu */; };
-		45E301642B07A41F005A51A5 /* NSManaged in Resources */ = {isa = PBXBuildFile; fileRef = 45E301632B07A41F005A51A5 /* NSManaged */; };
-		45E3017A2B07A567005A51A5 /* NSManaged in Sources */ = {isa = PBXBuildFile; fileRef = 45E301632B07A41F005A51A5 /* NSManaged */; };
+		45EE9F132B07A7EA009853CD /* BillingPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F0B2B07A7EA009853CD /* BillingPlaceHolderView.swift */; };
+		45EE9F142B07A7EA009853CD /* Main Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F0C2B07A7EA009853CD /* Main Menu.swift */; };
+		45EE9F152B07A7EA009853CD /* ProductsPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F0D2B07A7EA009853CD /* ProductsPlaceHolderView.swift */; };
+		45EE9F162B07A7EA009853CD /* OrdersPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F0E2B07A7EA009853CD /* OrdersPlaceholderView.swift */; };
+		45EE9F172B07A7EA009853CD /* CustomersPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F0F2B07A7EA009853CD /* CustomersPlaceHolderView.swift */; };
+		45EE9F182B07A7EA009853CD /* RecipesPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F102B07A7EA009853CD /* RecipesPlaceholderView.swift */; };
+		45EE9F192B07A7EA009853CD /* SuppliersPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F112B07A7EA009853CD /* SuppliersPlaceHolderView.swift */; };
+		45EE9F1A2B07A7EA009853CD /* IngredientsPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F122B07A7EA009853CD /* IngredientsPlaceHolderView.swift */; };
+		45EE9F252B07A868009853CD /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F212B07A868009853CD /* PersonListView.swift */; };
+		45EE9F262B07A868009853CD /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F222B07A868009853CD /* PersonRowView.swift */; };
+		45EE9F272B07A868009853CD /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F232B07A868009853CD /* AddPersonView.swift */; };
+		45EE9F282B07A868009853CD /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F242B07A868009853CD /* PersonDetailView.swift */; };
+		45EE9F2F2B07A8C1009853CD /* AddPersonToOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F2C2B07A8C1009853CD /* AddPersonToOrder.swift */; };
+		45EE9F302B07A8C1009853CD /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F2D2B07A8C1009853CD /* OrderListView.swift */; };
+		45EE9F312B07A8C1009853CD /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F2E2B07A8C1009853CD /* OrderRowView.swift */; };
+		45EE9F462B07A8D9009853CD /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F322B07A8D8009853CD /* Ingredient+CoreDataProperties.swift */; };
+		45EE9F472B07A8D9009853CD /* AssembledProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F332B07A8D8009853CD /* AssembledProduct+CoreDataProperties.swift */; };
+		45EE9F482B07A8D9009853CD /* OrderedItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F342B07A8D9009853CD /* OrderedItem+CoreDataProperties.swift */; };
+		45EE9F492B07A8D9009853CD /* Orders+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F352B07A8D9009853CD /* Orders+CoreDataClass.swift */; };
+		45EE9F4A2B07A8D9009853CD /* LaborCost+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F362B07A8D9009853CD /* LaborCost+CoreDataClass.swift */; };
+		45EE9F4B2B07A8D9009853CD /* Products+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F372B07A8D9009853CD /* Products+CoreDataClass.swift */; };
+		45EE9F4C2B07A8D9009853CD /* FoodProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F382B07A8D9009853CD /* FoodProduct+CoreDataClass.swift */; };
+		45EE9F4D2B07A8D9009853CD /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F392B07A8D9009853CD /* Employee+CoreDataClass.swift */; };
+		45EE9F4E2B07A8D9009853CD /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F3A2B07A8D9009853CD /* Person+CoreDataClass.swift */; };
+		45EE9F4F2B07A8D9009853CD /* LaborCost+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F3B2B07A8D9009853CD /* LaborCost+CoreDataProperties.swift */; };
+		45EE9F502B07A8D9009853CD /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F3C2B07A8D9009853CD /* Products+CoreDataProperties.swift */; };
+		45EE9F512B07A8D9009853CD /* AssembledProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F3D2B07A8D9009853CD /* AssembledProduct+CoreDataClass.swift */; };
+		45EE9F522B07A8D9009853CD /* Ingredient+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F3E2B07A8D9009853CD /* Ingredient+CoreDataClass.swift */; };
+		45EE9F532B07A8D9009853CD /* OrderedItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F3F2B07A8D9009853CD /* OrderedItem+CoreDataClass.swift */; };
+		45EE9F542B07A8D9009853CD /* Componets+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F402B07A8D9009853CD /* Componets+CoreDataClass.swift */; };
+		45EE9F552B07A8DA009853CD /* FoodProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F412B07A8D9009853CD /* FoodProduct+CoreDataProperties.swift */; };
+		45EE9F562B07A8DA009853CD /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F422B07A8D9009853CD /* Person+CoreDataProperties.swift */; };
+		45EE9F572B07A8DA009853CD /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F432B07A8D9009853CD /* Employee+CoreDataProperties.swift */; };
+		45EE9F582B07A8DA009853CD /* Componets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F442B07A8D9009853CD /* Componets+CoreDataProperties.swift */; };
+		45EE9F592B07A8DA009853CD /* Orders+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE9F452B07A8D9009853CD /* Orders+CoreDataProperties.swift */; };
+		45EE9F5C2B07AA71009853CD /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 45608FC02B078A5000F21651 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4549DDC72B096742008E4593 /* CloudKitObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitObserver.swift; sourceTree = "<group>"; };
+		4549DDC92B09E8F4008E4593 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		4549DDCB2B0A7690008E4593 /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		4549DDCE2B0A83FB008E4593 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		4549DDD12B0A8445008E4593 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 		45608FB92B078A4F00F21651 /* OM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45608FBC2B078A4F00F21651 /* OM2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OM2App.swift; sourceTree = "<group>"; };
 		45608FBE2B078A4F00F21651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,12 +69,44 @@
 		45608FC32B078A5000F21651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45608FC52B078A5000F21651 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		45608FC82B078A5000F21651 /* OM2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OM2.xcdatamodel; sourceTree = "<group>"; };
-		45608FCA2B078A5000F21651 /* OM2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OM2.entitlements; sourceTree = "<group>"; };
 		45608FCB2B078A5000F21651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45AD27482B07A5AA003D940E /* Orders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Orders; sourceTree = "<group>"; };
-		45AD274B2B07A5B8003D940E /* Person */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Person; sourceTree = "<group>"; };
-		45AD274E2B07A5CD003D940E /* Main Menu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Main Menu"; sourceTree = "<group>"; };
-		45E301632B07A41F005A51A5 /* NSManaged */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NSManaged; sourceTree = "<group>"; };
+		4575600F2B07CA6000379C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Base; path = Base.lproj/OM2.entitlements; sourceTree = "<group>"; };
+		457560112B07CA6200379C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = en; path = en.lproj/OM2.entitlements; sourceTree = "<group>"; };
+		45EE9F0B2B07A7EA009853CD /* BillingPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingPlaceHolderView.swift; sourceTree = "<group>"; };
+		45EE9F0C2B07A7EA009853CD /* Main Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Menu.swift"; sourceTree = "<group>"; };
+		45EE9F0D2B07A7EA009853CD /* ProductsPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsPlaceHolderView.swift; sourceTree = "<group>"; };
+		45EE9F0E2B07A7EA009853CD /* OrdersPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPlaceholderView.swift; sourceTree = "<group>"; };
+		45EE9F0F2B07A7EA009853CD /* CustomersPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersPlaceHolderView.swift; sourceTree = "<group>"; };
+		45EE9F102B07A7EA009853CD /* RecipesPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesPlaceholderView.swift; sourceTree = "<group>"; };
+		45EE9F112B07A7EA009853CD /* SuppliersPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuppliersPlaceHolderView.swift; sourceTree = "<group>"; };
+		45EE9F122B07A7EA009853CD /* IngredientsPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsPlaceHolderView.swift; sourceTree = "<group>"; };
+		45EE9F212B07A868009853CD /* PersonListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		45EE9F222B07A868009853CD /* PersonRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
+		45EE9F232B07A868009853CD /* AddPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
+		45EE9F242B07A868009853CD /* PersonDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		45EE9F2C2B07A8C1009853CD /* AddPersonToOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonToOrder.swift; sourceTree = "<group>"; };
+		45EE9F2D2B07A8C1009853CD /* OrderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		45EE9F2E2B07A8C1009853CD /* OrderRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		45EE9F322B07A8D8009853CD /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ingredient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F332B07A8D8009853CD /* AssembledProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AssembledProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F342B07A8D9009853CD /* OrderedItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OrderedItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F352B07A8D9009853CD /* Orders+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Orders+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F362B07A8D9009853CD /* LaborCost+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LaborCost+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F372B07A8D9009853CD /* Products+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F382B07A8D9009853CD /* FoodProduct+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F392B07A8D9009853CD /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F3A2B07A8D9009853CD /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F3B2B07A8D9009853CD /* LaborCost+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LaborCost+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F3C2B07A8D9009853CD /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F3D2B07A8D9009853CD /* AssembledProduct+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AssembledProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F3E2B07A8D9009853CD /* Ingredient+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ingredient+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F3F2B07A8D9009853CD /* OrderedItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OrderedItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F402B07A8D9009853CD /* Componets+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Componets+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45EE9F412B07A8D9009853CD /* FoodProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F422B07A8D9009853CD /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F432B07A8D9009853CD /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F442B07A8D9009853CD /* Componets+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Componets+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45EE9F452B07A8D9009853CD /* Orders+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Orders+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,15 +123,19 @@
 		45608FB02B078A4F00F21651 = {
 			isa = PBXGroup;
 			children = (
-				45AD274E2B07A5CD003D940E /* Main Menu */,
-				45AD274B2B07A5B8003D940E /* Person */,
-				45AD27482B07A5AA003D940E /* Orders */,
-				45E301632B07A41F005A51A5 /* NSManaged */,
+				4549DDD12B0A8445008E4593 /* AddProductView.swift */,
+				456AF4512B0A8477005ECD86 /* Products */,
+				4549DDCE2B0A83FB008E4593 /* ProductListView.swift */,
+				4549DDC72B096742008E4593 /* CloudKitObserver.swift */,
+				45EE9F2B2B07A8B3009853CD /* NsManage */,
+				45EE9F2A2B07A8A1009853CD /* Orders */,
+				45EE9F202B07A868009853CD /* Person */,
+				45EE9F292B07A884009853CD /* Menu */,
 				45608FBC2B078A4F00F21651 /* OM2App.swift */,
 				45608FBE2B078A4F00F21651 /* ContentView.swift */,
 				45608FC02B078A5000F21651 /* Assets.xcassets */,
 				45608FC52B078A5000F21651 /* Persistence.swift */,
-				45608FCA2B078A5000F21651 /* OM2.entitlements */,
+				457560102B07CA6000379C23 /* OM2.entitlements */,
 				45608FCB2B078A5000F21651 /* Info.plist */,
 				45608FC72B078A5000F21651 /* OM2.xcdatamodeld */,
 				45608FC22B078A5000F21651 /* Preview Content */,
@@ -83,6 +157,79 @@
 				45608FC32B078A5000F21651 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		456AF4512B0A8477005ECD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		45EE9F202B07A868009853CD /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				45EE9F212B07A868009853CD /* PersonListView.swift */,
+				45EE9F222B07A868009853CD /* PersonRowView.swift */,
+				45EE9F232B07A868009853CD /* AddPersonView.swift */,
+				45EE9F242B07A868009853CD /* PersonDetailView.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		45EE9F292B07A884009853CD /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				45EE9F0B2B07A7EA009853CD /* BillingPlaceHolderView.swift */,
+				45EE9F0F2B07A7EA009853CD /* CustomersPlaceHolderView.swift */,
+				45EE9F0C2B07A7EA009853CD /* Main Menu.swift */,
+				45EE9F0E2B07A7EA009853CD /* OrdersPlaceholderView.swift */,
+				45EE9F122B07A7EA009853CD /* IngredientsPlaceHolderView.swift */,
+				45EE9F0D2B07A7EA009853CD /* ProductsPlaceHolderView.swift */,
+				45EE9F102B07A7EA009853CD /* RecipesPlaceholderView.swift */,
+				45EE9F112B07A7EA009853CD /* SuppliersPlaceHolderView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		45EE9F2A2B07A8A1009853CD /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				45EE9F2C2B07A8C1009853CD /* AddPersonToOrder.swift */,
+				45EE9F2D2B07A8C1009853CD /* OrderListView.swift */,
+				45EE9F2E2B07A8C1009853CD /* OrderRowView.swift */,
+				4549DDC92B09E8F4008E4593 /* OrderDetailView.swift */,
+				4549DDCB2B0A7690008E4593 /* AddOrderView.swift */,
+			);
+			name = Orders;
+			path = Orders/Orders;
+			sourceTree = "<group>";
+		};
+		45EE9F2B2B07A8B3009853CD /* NsManage */ = {
+			isa = PBXGroup;
+			children = (
+				45EE9F3D2B07A8D9009853CD /* AssembledProduct+CoreDataClass.swift */,
+				45EE9F332B07A8D8009853CD /* AssembledProduct+CoreDataProperties.swift */,
+				45EE9F402B07A8D9009853CD /* Componets+CoreDataClass.swift */,
+				45EE9F442B07A8D9009853CD /* Componets+CoreDataProperties.swift */,
+				45EE9F392B07A8D9009853CD /* Employee+CoreDataClass.swift */,
+				45EE9F432B07A8D9009853CD /* Employee+CoreDataProperties.swift */,
+				45EE9F382B07A8D9009853CD /* FoodProduct+CoreDataClass.swift */,
+				45EE9F412B07A8D9009853CD /* FoodProduct+CoreDataProperties.swift */,
+				45EE9F3E2B07A8D9009853CD /* Ingredient+CoreDataClass.swift */,
+				45EE9F322B07A8D8009853CD /* Ingredient+CoreDataProperties.swift */,
+				45EE9F362B07A8D9009853CD /* LaborCost+CoreDataClass.swift */,
+				45EE9F3B2B07A8D9009853CD /* LaborCost+CoreDataProperties.swift */,
+				45EE9F3F2B07A8D9009853CD /* OrderedItem+CoreDataClass.swift */,
+				45EE9F342B07A8D9009853CD /* OrderedItem+CoreDataProperties.swift */,
+				45EE9F352B07A8D9009853CD /* Orders+CoreDataClass.swift */,
+				45EE9F452B07A8D9009853CD /* Orders+CoreDataProperties.swift */,
+				45EE9F3A2B07A8D9009853CD /* Person+CoreDataClass.swift */,
+				45EE9F422B07A8D9009853CD /* Person+CoreDataProperties.swift */,
+				45EE9F372B07A8D9009853CD /* Products+CoreDataClass.swift */,
+				45EE9F3C2B07A8D9009853CD /* Products+CoreDataProperties.swift */,
+			);
+			path = NsManage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,12 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AD27492B07A5AA003D940E /* Orders in Resources */,
-				45AD274F2B07A5CD003D940E /* Main Menu in Resources */,
 				45608FC42B078A5000F21651 /* Preview Assets.xcassets in Resources */,
-				45AD274C2B07A5B8003D940E /* Person in Resources */,
 				45608FC12B078A5000F21651 /* Assets.xcassets in Resources */,
-				45E301642B07A41F005A51A5 /* NSManaged in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,18 +302,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AD27502B07A5D0003D940E /* Main Menu in Sources */,
-				45AD274A2B07A5AC003D940E /* Orders in Sources */,
-				45AD274D2B07A5BC003D940E /* Person in Sources */,
-				45E3017A2B07A567005A51A5 /* NSManaged in Sources */,
+				4549DDCF2B0A83FB008E4593 /* ProductListView.swift in Sources */,
+				45EE9F5C2B07AA71009853CD /* Assets.xcassets in Sources */,
+				45EE9F4D2B07A8D9009853CD /* Employee+CoreDataClass.swift in Sources */,
+				45EE9F582B07A8DA009853CD /* Componets+CoreDataProperties.swift in Sources */,
 				45608FC62B078A5000F21651 /* Persistence.swift in Sources */,
 				45608FBF2B078A4F00F21651 /* ContentView.swift in Sources */,
+				45EE9F522B07A8D9009853CD /* Ingredient+CoreDataClass.swift in Sources */,
+				45EE9F4A2B07A8D9009853CD /* LaborCost+CoreDataClass.swift in Sources */,
+				45EE9F252B07A868009853CD /* PersonListView.swift in Sources */,
+				45EE9F532B07A8D9009853CD /* OrderedItem+CoreDataClass.swift in Sources */,
+				45EE9F4E2B07A8D9009853CD /* Person+CoreDataClass.swift in Sources */,
+				45EE9F262B07A868009853CD /* PersonRowView.swift in Sources */,
+				45EE9F2F2B07A8C1009853CD /* AddPersonToOrder.swift in Sources */,
+				45EE9F4F2B07A8D9009853CD /* LaborCost+CoreDataProperties.swift in Sources */,
+				45EE9F492B07A8D9009853CD /* Orders+CoreDataClass.swift in Sources */,
+				45EE9F272B07A868009853CD /* AddPersonView.swift in Sources */,
+				45EE9F282B07A868009853CD /* PersonDetailView.swift in Sources */,
+				45EE9F482B07A8D9009853CD /* OrderedItem+CoreDataProperties.swift in Sources */,
+				45EE9F472B07A8D9009853CD /* AssembledProduct+CoreDataProperties.swift in Sources */,
+				45EE9F132B07A7EA009853CD /* BillingPlaceHolderView.swift in Sources */,
+				45EE9F172B07A7EA009853CD /* CustomersPlaceHolderView.swift in Sources */,
+				45EE9F1A2B07A7EA009853CD /* IngredientsPlaceHolderView.swift in Sources */,
+				45EE9F142B07A7EA009853CD /* Main Menu.swift in Sources */,
+				45EE9F162B07A7EA009853CD /* OrdersPlaceholderView.swift in Sources */,
+				45EE9F152B07A7EA009853CD /* ProductsPlaceHolderView.swift in Sources */,
+				45EE9F182B07A7EA009853CD /* RecipesPlaceholderView.swift in Sources */,
+				45EE9F192B07A7EA009853CD /* SuppliersPlaceHolderView.swift in Sources */,
+				4549DDCA2B09E8F4008E4593 /* OrderDetailView.swift in Sources */,
+				45EE9F562B07A8DA009853CD /* Person+CoreDataProperties.swift in Sources */,
+				45EE9F542B07A8D9009853CD /* Componets+CoreDataClass.swift in Sources */,
+				45EE9F302B07A8C1009853CD /* OrderListView.swift in Sources */,
+				45EE9F4B2B07A8D9009853CD /* Products+CoreDataClass.swift in Sources */,
+				45EE9F592B07A8DA009853CD /* Orders+CoreDataProperties.swift in Sources */,
+				4549DDC82B096742008E4593 /* CloudKitObserver.swift in Sources */,
+				45EE9F462B07A8D9009853CD /* Ingredient+CoreDataProperties.swift in Sources */,
+				45EE9F502B07A8D9009853CD /* Products+CoreDataProperties.swift in Sources */,
+				45EE9F552B07A8DA009853CD /* FoodProduct+CoreDataProperties.swift in Sources */,
+				45EE9F572B07A8DA009853CD /* Employee+CoreDataProperties.swift in Sources */,
 				45608FC92B078A5000F21651 /* OM2.xcdatamodeld in Sources */,
+				4549DDD22B0A8445008E4593 /* AddProductView.swift in Sources */,
+				45EE9F4C2B07A8D9009853CD /* FoodProduct+CoreDataClass.swift in Sources */,
 				45608FBD2B078A4F00F21651 /* OM2App.swift in Sources */,
+				45EE9F312B07A8C1009853CD /* OrderRowView.swift in Sources */,
+				4549DDCC2B0A7690008E4593 /* AddOrderView.swift in Sources */,
+				45EE9F512B07A8D9009853CD /* AssembledProduct+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		457560102B07CA6000379C23 /* OM2.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4575600F2B07CA6000379C23 /* Base */,
+				457560112B07CA6200379C23 /* en */,
+			);
+			name = OM2.entitlements;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		45608FCC2B078A5000F21651 /* Debug */ = {
@@ -206,8 +398,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = /Users/marknashed/OM2/Base.lproj/OM2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7GUHGRV3XH;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -225,6 +422,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = /Users/marknashed/OM2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -269,8 +469,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = /Users/marknashed/OM2/Base.lproj/OM2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7GUHGRV3XH;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -282,6 +487,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = /Users/marknashed/OM2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -297,26 +505,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OM2/OM2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = /Users/marknashed/OM2/Base.lproj/OM2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 7GUHGRV3XH;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OM2/Info.plist;
+				INFOPLIST_FILE = /Users/marknashed/OM2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OM2;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				"INFOPLIST_KEY_UIUserInterfaceStyle[sdk=*]" = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CraftedSolutions.OM2;
+				PRODUCT_BUNDLE_IDENTIFIER = co.CraftedSolutions.OM2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,26 +542,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OM2/OM2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = /Users/marknashed/OM2/Base.lproj/OM2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 7GUHGRV3XH;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OM2/Info.plist;
+				INFOPLIST_FILE = /Users/marknashed/OM2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OM2;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				"INFOPLIST_KEY_UIUserInterfaceStyle[sdk=*]" = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CraftedSolutions.OM2;
+				PRODUCT_BUNDLE_IDENTIFIER = co.CraftedSolutions.OM2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

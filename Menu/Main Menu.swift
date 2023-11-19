@@ -24,14 +24,11 @@ struct MainMenuView: View {
             .navigationBarTitle("Operations Manager")
             .navigationBarTitleDisplayMode(.inline)
         }
+            }
     }
-}
 
-// Preview provider for MainMenuView
 struct MainMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        // The PersistenceController is assumed to be a part of your project.
-        // If it isn't, you'll need to replace it with your Core Data stack setup.
-        MainMenuView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        MainMenuView().environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
     }
 }

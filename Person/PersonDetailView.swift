@@ -15,7 +15,7 @@ struct PersonDetailView: View {
                     } else {
                         Text("Order Date: Unknown")
                     }
-                    Text("Order ID: \(order.id.uuidString)")
+                    Text("Order ID: \(order.id!.uuidString)")
                     // Include other properties of Order that you want to display
                 }
             }
